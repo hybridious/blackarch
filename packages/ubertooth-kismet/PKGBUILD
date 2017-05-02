@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname='ubertooth-kismet'
-pkgver='2015.10.R1'
+pkgver='2017.03.R2'
 _kismet_pkgver=2013-03-R1b
 pkgrel=1
 groups=('blackarch' 'blackarch-bluetooth')
@@ -13,7 +13,7 @@ license=('GPL')
 depends=('kismet' 'ubertooth')
 source=("https://github.com/greatscottgadgets/ubertooth/archive/${pkgver//./-}.tar.gz"
         "http://www.kismetwireless.net/code/kismet-${_kismet_pkgver}.tar.gz")
-sha1sums=('815e12fa3c9b9292e230bff00bf0e0b6539cbb1d'
+sha1sums=('a685db6317ee7e125da0a5ea93b694acc41a5cc6'
           'c77b92bf5d589b79281271e96724ef96032a162b')
 
 build() {
